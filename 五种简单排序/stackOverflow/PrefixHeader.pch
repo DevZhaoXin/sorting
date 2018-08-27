@@ -1,0 +1,60 @@
+//
+//  PrefixHeader.pch
+//  NewBattery
+//
+//  Created by apple on 2017/7/4.
+//  Copyright © 2017年 lile. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "HUDCenterTool.h"
+
+#import "AppDelegate.h"
+
+#import "ACMarcros.h"
+#import "AppMacro.h"
+#import "UtilsMacro.h"
+#import "VendorMarco.h"
+#import "APIMacro.h"
+#import "NotificationMacro.h"
+
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <CoreFoundation/CoreFoundation.h>
+
+#import <MJRefresh.h>
+#import <AFNetworking.h>
+
+#import <Masonry/Masonry.h>
+#import <MJExtension/MJExtension.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <FMDatabase.h>
+#import <Masonry.h>
+
+#import <UIImageView+WebCache.h>
+
+
+
+#import "UIView+Frame.h"
+#import "UIColor+Hex.h"
+#import "UIButton+ImageTitleSpacing.h"
+#import "UIImage+colorImage.h"
+
+#import "NSObject+jiami.h"
+#import "AFNManager.h"
+#import "UIButton+runtime.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#endif /* PrefixHeader_pch */
